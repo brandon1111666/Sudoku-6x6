@@ -20,7 +20,7 @@ public class SudokuFirstStage extends Stage {
     public SudokuFirstStage() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/sudoku/first-view.fxml"));
 
-        // Verifica si el archivo FXML se encuentra disponible
+        // Verifica si el archivo FXML se encuentra disponible.
         if (loader.getLocation() == null) {
             throw new IOException("No se pudo encontrar el archivo FXML: /com/example/sudoku/first-view.fxml");
         }
